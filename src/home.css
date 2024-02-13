@@ -1,0 +1,93 @@
+.hding{
+    background: linear-gradient(to right, red, green);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 6vw;
+    text-transform: uppercase;
+    text-shadow: 0 0 60px rgb(134, 199, 132);
+    animation: anim 1s infinite;
+    position: relative;
+    top: 10px;
+    left:6px;
+    
+}
+@keyframes anim {
+    100%{
+        text-shadow: 0 0 60px blue;
+    }
+}
+.hding2{
+    background: linear-gradient(to right, rgb(7, 26, 227), rgb(162, 196, 14));
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 5vw;
+    text-transform: uppercase;
+    text-shadow: 0 0 60px rgb(134, 199, 132);
+    animation: anim 1s infinite;
+}
+.button{
+    background: linear-gradient(to right, rgb(80, 113, 51), rgb(162, 196, 14));
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #ccc;
+    cursor: pointer;
+   
+   
+}
+.img1{
+    border-radius: 15px;
+    margin-top: -20px;
+    width: 200px;
+    height: 200px;
+}
+.marque{
+    display: inline-block;
+}
+.marquemain{
+
+    white-space:nowrap ;
+    overflow-x: hidden;
+    padding: 0px;
+    margin-top:-20px ;
+
+    
+    
+   
+}
+.all_data{
+    white-space: nowrap;
+    display: inline-block;
+    animation: move 15s infinite ;
+    animation-timing-function: linear;
+}
+.gola{
+    width: 10px;
+    height: 10px;
+    background: #000;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+@keyframes move {
+    from{
+        transform: translate(0);
+    }to{
+        transform: translate(-100%);
+    }
+}
+.pgraf{
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 10px;
+    background: linear-gradient(to right, rgb(179, 184, 237), rgb(170, 97, 169));
+    font-weight: 700;
+    font-size: 4vw;
+    
+}
