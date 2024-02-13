@@ -17,8 +17,8 @@ function img() {
      
          < Link to={'/'}><button className='button'>Go Back</button></Link> 
          <h4>CLICK ON PIC AND ARROW BUTTON ALSO</h4>
-     <Aman image={img5} name="Happy Anniversary " pgraf="शादी की सालगिरह की बधाई ! विश्वास के साथ आप इस रिश्ते को निभाए ! Happy Wedding Anniversary ! और खुशियों से भर जाए आपका जीवन ! !"/>   
-<Aman image={img1}  name="Old Pic" pgraf="जो अपनी वाणी से  
+     <Aman subtitle="both of you" title="CONGRATULATIONS" image={img5} name="Happy Anniversary " pgraf="शादी की सालगिरह की बधाई ! विश्वास के साथ आप इस रिश्ते को निभाए ! Happy Wedding Anniversary ! और खुशियों से भर जाए आपका जीवन ! !"/>   
+<Aman subtitle="&#128522;"  title="NICE PIC" image={img1}  name="Old Pic" pgraf="जो अपनी वाणी से  
 सारे घर को महकाती है,
 जो अपना दिन भर 
 घर के काम काज मे गुजारती है,
@@ -44,7 +44,7 @@ function img() {
  
 आज हमारी उन्ही मौसा जी और मौसी जी को 
 शादी की सालगिरह पर हार्दिक शुभकामनाएँ"/>
-<Aman image={img2} name="Mother & Daughter" pgraf="मौसा और मौसी जी  हमें ईश्वर का वरदान है,
+<Aman subtitle="february 13, 2024" title="KAJU" image={img2} name="Mother & Daughter" pgraf="मौसा और मौसी जी  हमें ईश्वर का वरदान है,
 माता पिता के जैसे वो लगते खास है 
  
 मौसी का आंचल ठंडी छांव के जैसा
@@ -56,13 +56,13 @@ function img() {
 जैसे हम रहते है अपने माता पिता के घर में,
 वैसे ही प्रेम को पाते है मौसा मौसी के द्वारा
 मौसाजी और मौसी जी को विवाह वर्षगांठ की हार्दिक शुभकामनायें"/>
-<Aman image={img3} name="Festival Movement" pgraf="आपकी जोड़ी रब ने है
+<Aman subtitle="with family" title="EJOYMENT" image={img3} name="Festival Movement" pgraf="आपकी जोड़ी रब ने है
 कुछ ऐसी बनाई
 साथ रहे आप दोनों हमेशा
 हर दिल दे रहा बधाई
 मौसाजी और मौसीजी को
 शादी की सालगिरह शुभकामनाएँ" />
-<Aman image={img4} name="JAI SRI KRISHNA" pgraf="जय श्री श्याम बोलने से मन को शांति मिलती हैं... जयश्री श्याम बोलने से तन शक्ति मिलती हैं... जय श्री श्याम बोलने से पापो से मुक्ति मिलती हैं. और निरंतर जय श्री श्याम बोलने से भक्ति मिलती हैं.."/>
+<Aman subtitle="mathura  vrindavan " title=" FAMILY TRIP" image={img4} name="JAI SRI KRISHNA" pgraf="जय श्री श्याम बोलने से मन को शांति मिलती हैं... जयश्री श्याम बोलने से तन शक्ति मिलती हैं... जय श्री श्याम बोलने से पापो से मुक्ति मिलती हैं. और निरंतर जय श्री श्याम बोलने से भक्ति मिलती हैं.."/>
 <br/>
 < Link to={'/'}><button className='button'>Go Back</button></Link> 
         </>

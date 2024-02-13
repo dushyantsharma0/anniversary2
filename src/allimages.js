@@ -46,8 +46,8 @@ function  onclick() {
     <Card sx={{ maxWidth: 345 }}>
       <CardHeader
         avatar={
-          <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
-            R
+          <Avatar style={{ color:" wheat",fontWeight:900, width:"50px", height:"50px"}} sx={{ bgcolor: red[600] }} aria-label="recipe">
+           Y&#9829;K
           </Avatar>
         }
         action={
@@ -55,8 +55,8 @@ function  onclick() {
             <MoreVertIcon />
           </IconButton>
         }
-        title="Shrimp and Chorizo Paella"
-        subheader="September 14, 2016"
+        title={props.title}
+        subheader={props.subtitle}   
       />
       <CardMedia
         onMouseDown={onclick}
@@ -110,7 +110,7 @@ function  onclick() {
     </Card>
     {
         state?
-        <div  onMouseDown={()=>setstate(false)}  style={{position:"fixed",top:"0px",left:"0px", width:"360px", height:"400px"}}>
+        <div  onMouseDown={()=>setstate(false)}  style={{position:"fixed",top:"0px",left:"0px",width:"100vw",height:"100vh"}}>
             <img style={{ borderRadius:"15px", width:"100%",height:"100%"}}  src={props.image} alt="" />
             </div>:null
     }
