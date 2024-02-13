@@ -56,7 +56,7 @@ function img() {
 जैसे हम रहते है अपने माता पिता के घर में,
 वैसे ही प्रेम को पाते है मौसा मौसी के द्वारा
 मौसाजी और मौसी जी को विवाह वर्षगांठ की हार्दिक शुभकामनायें"/>
-<Aman subtitle="with family" title="EJOYMENT" image={img3} name="Festival Movement" pgraf="आपकी जोड़ी रब ने है
+<Aman subtitle="with family" title="ENJOYMENT" image={img3} name="Festival Movement" pgraf="आपकी जोड़ी रब ने है
 कुछ ऐसी बनाई
 साथ रहे आप दोनों हमेशा
 हर दिल दे रहा बधाई
