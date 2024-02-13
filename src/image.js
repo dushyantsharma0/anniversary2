@@ -5,10 +5,16 @@ import img3 from './imgs/3.jpg'
 import img4 from './imgs/4.jpg'
 import img5 from './imgs/5.jpg'
 import { Link } from 'react-router-dom';
+import audio from './imgs/6.mp3'
+import { useRef, useState } from 'react'
+
 function img() {
+   
 
     return(
         <>
+  
+     
          < Link to={'/'}><button className='button'>Go Back</button></Link> 
          <h4>CLICK ON PIC AND ARROW BUTTON ALSO</h4>
      <Aman image={img5} name="Happy Anniversary " pgraf="शादी की सालगिरह की बधाई ! विश्वास के साथ आप इस रिश्ते को निभाए ! Happy Wedding Anniversary ! और खुशियों से भर जाए आपका जीवन ! !"/>   
